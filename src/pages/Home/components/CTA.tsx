@@ -39,7 +39,7 @@ function CTA() {
 
 					<div>
 						<button
-							className="px-8 py-4 bg-indigo-600 border border-gray-50 hover:bg-gray-50 hover:text-gray-800 transition-all duration-150 hover:border hover:border-gray-900 text-white text-xl font-semibold mt-12 cursor-pointer">
+							className="px-8 py-4 bg-orange-600 border border-gray-50 hover:bg-gray-50 hover:text-gray-800 transition-all duration-150 hover:border hover:border-gray-900 text-white text-xl font-semibold mt-12 cursor-pointer">
 							Send
 						</button>
 					</div>
