@@ -1,0 +1,6 @@
+# Allow all crawlers to access the entire site
+User-agent: *
+Allow: /
+
+# Link to your sitemap (update this once you have one)
+Sitemap: https://your-vercel-domain.com/sitemap.xml

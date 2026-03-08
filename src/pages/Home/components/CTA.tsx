@@ -19,7 +19,7 @@ function CTA() {
 							<label htmlFor="fullname">Name</label>
 							<input type="text" id="fullname"
 								className="w-full px-3 py-2 text-sm text-gray-900 border-b-2 border-gray-300 bg-gray-50 focus:outline-none focus:border-gray-500 focus:ring-gray-500 placeholder-gray-400"
-								placeholder="John" />
+								placeholder="Your Name" />
 						</div>
 						<div className="w-full">
 							<label htmlFor="email">Email</label>
@@ -33,18 +33,19 @@ function CTA() {
 							<label htmlFor="message">Message</label>
 							<textarea id="message"
 								className="w-full px-3 py-2 text-sm text-gray-900 border-b-2 border-gray-300 bg-gray-50 focus:outline-none focus:border-gray-500 focus:ring-gray-500 placeholder-gray-400"
-								placeholder="message to me"> </textarea>
+							> </textarea>
 						</div>
 					</div>
 
 					<div>
 						<button
-							className="px-8 py-4 bg-orange-600 border border-gray-50 hover:bg-gray-50 hover:text-gray-800 transition-all duration-150 hover:border hover:border-gray-900 text-white text-xl font-semibold mt-12 cursor-pointer">
+							className="px-8 py-4 bg-orange-700 border border-gray-50 hover:bg-gray-50 hover:text-gray-800 transition-all duration-150 hover:border hover:border-gray-900 text-white text-xl font-semibold mt-12 cursor-pointer">
 							Send
 						</button>
 					</div>
 				</div>
-			</div></>
+			</div>
+		</>
 	)
 }
 

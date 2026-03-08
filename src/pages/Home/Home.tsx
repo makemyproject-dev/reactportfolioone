@@ -12,12 +12,15 @@ function Home() {
 		<>
 			<div className='bg-gray-50' >
 				<Navbar />
-				<Hero />
-				<Services />
-				<Experience />
-				<Projects />
-				<Feedback />
-				<CTA />
+				<main>
+					<Hero />
+					<Services />
+					<Experience />
+					<Projects />
+					<Feedback />
+					<CTA />
+				</main>
+				<footer>Copywrites</footer>
 			</div>
 
 		</>

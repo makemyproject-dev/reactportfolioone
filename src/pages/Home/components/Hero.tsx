@@ -31,7 +31,7 @@ function Hero() {
 								<svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path
 										d="M12 3C12 7.97056 16.0294 12 21 12C16.0294 12 12 16.0294 12 21C12 16.0294 7.97056 12 3 12C7.97056 12 12 7.97056 12 3Z"
-										stroke="#000000" fill="#000000" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round" />
+										stroke="#000000" fill="#000000" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 								</svg>
 							</div>
 						</div>
@@ -44,7 +44,7 @@ function Hero() {
 								<li className="flex gap-4 items-center">
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.5"
 										stroke="currentColor" className="size-6">
-										<path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+										<path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 									</svg>
 
 									<span>Lorem ipsum dolor sit amet.</span>
@@ -52,7 +52,7 @@ function Hero() {
 								<li className="flex gap-4 items-center">
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.5"
 										stroke="currentColor" className="size-6">
-										<path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+										<path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 									</svg>
 
 									<span>Voluptates dolores eum est ipsum</span>
@@ -60,7 +60,7 @@ function Hero() {
 								<li className="flex gap-4 items-center">
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.5"
 										stroke="currentColor" className="size-6">
-										<path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+										<path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 									</svg>
 
 									<span>Searum placeat possimus optio et</span>
@@ -76,13 +76,13 @@ function Hero() {
 								<span>Download CV</span>
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
 									stroke="currentColor" className="size-6 group-hover:animate-bounce">
-									<path strokeLinecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+									<path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
 								</svg>
 							</div>
 						</div>
 					</div>
 					<div className="flex items-end justify-center">
-						<img src="/model.png" className=" " alt="" />
+						<img src="/model.webp" width={1000} height={1000} className="w-full md:w-[600px] lg:w-[1000px] h-auto" alt="Portfolio" />
 					</div>
 				</div>
 			</div>
@@ -94,7 +94,7 @@ function Hero() {
 							xmlns="http://www.w3.org/2000/svg">
 							<path
 								d="M12 3C12 7.97056 16.0294 12 21 12C16.0294 12 12 16.0294 12 21C12 16.0294 7.97056 12 3 12C7.97056 12 12 7.97056 12 3Z"
-								fill="currentColor" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round" />
+								fill="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 						</svg>
 						<span className="text-nowrap"> Web Development </span>
 					</div>
@@ -102,7 +102,7 @@ function Hero() {
 						xmlns="http://www.w3.org/2000/svg">
 						<path
 							d="M12 3C12 7.97056 16.0294 12 21 12C16.0294 12 12 16.0294 12 21C12 16.0294 7.97056 12 3 12C7.97056 12 12 7.97056 12 3Z"
-							fill="currentColor" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round" />
+							fill="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 					</svg>
 					<div className="flex w-full lg:w-2/5 justify-center lg:justify-between">
 						<span className="text-nowrap"> App Development </span>
@@ -110,7 +110,7 @@ function Hero() {
 							xmlns="http://www.w3.org/2000/svg">
 							<path
 								d="M12 3C12 7.97056 16.0294 12 21 12C16.0294 12 12 16.0294 12 21C12 16.0294 7.97056 12 3 12C7.97056 12 12 7.97056 12 3Z"
-								fill="currentColor" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round" />
+								fill="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 						</svg>
 						<span className="text-nowrap"> Full Stack </span>
 					</div>

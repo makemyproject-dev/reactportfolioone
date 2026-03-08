@@ -21,7 +21,6 @@ const Navbar = () => {
 				}
 			}
 
-			// Update ref without triggering a re-render
 			if (currentScroll >= 0) {
 				lastScrollTop.current = currentScroll;
 			}
@@ -66,7 +65,7 @@ const Navbar = () => {
 						<span className="font-semibold text-lg">Home</span>
 					</div>
 					<div className="flex gap-1 items-center group">
-						<button className="px-6 py-2 bg-orange-600 text-white font-semibold cursor-pointer">
+						<button className="px-6 py-2 bg-orange-700 text-white font-semibold hover:bg-white hover:text-gray-900 cursor-pointer transition-colors duration-200">
 							Contact
 						</button>
 						<span className="p-2 bg-white text-gray-800">
@@ -80,7 +79,7 @@ const Navbar = () => {
 				</div >
 
 				<div className={`flex justify-center w-full transition-opacity duration-300 cursor-pointer ${isVisible ? 'opacity-0 hidden' : 'opacity-100'} `} onMouseOver={toggle}  >
-					< img src="model-tn.png" className="size-12 rounded-full" alt="" />
+					< img src="model-tn.png" className="size-10 rounded-full" alt="" />
 				</div >
 			</div >
 		</>
