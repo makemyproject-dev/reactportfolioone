@@ -5,7 +5,7 @@ function Hero() {
 		<>
 			<div className="mx-auto max-w-7xl">
 				<div
-					className="mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 pt-6 gap-8 px-6 sm:px-6 md:px-8 lg:px-12">
+					className="mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 px-6 sm:px-6 md:px-8 lg:px-12">
 					<div className="py-12 sm:py-12 md:py-18 lg:py-24">
 						<div>
 							<svg className="size-9 sm:size-9 md:size-12 lg:size-16 hover:animate-wiggle text-orange-600" viewBox="0 0 24 24" fill="none"
@@ -83,7 +83,24 @@ function Hero() {
 					</div>
 					<div className="flex items-end justify-center">
 
-						<img src="/model.webp" width={1000} height={1000} className="w-full md:w-150 lg:w-250 h-auto" alt="Portfolio" loading="eager" fetchPriority="high" />
+						<img
+  src="model-lg.webp"
+  srcSet="
+    model-sm.webp 384w,
+    model-md.webp 640w,
+    model-lg.webp 1024w
+  "
+  sizes="(max-width:768px) 384px,
+         (max-width:1024px) 448px,
+         512px"
+  width="1024"
+  height="1024"
+  alt="image"
+  decoding="async"
+  fetchPriority="high"
+  className="w-full md:w-150 lg:w-250 h-auto"
+/>
+						{/* <img src="/model.webp" width={1000} height={1000} className="w-full md:w-150 lg:w-250 h-auto" alt="Portfolio" loading="eager" fetchPriority="high" /> */}
 					</div>
 				</div>
 			</div>
