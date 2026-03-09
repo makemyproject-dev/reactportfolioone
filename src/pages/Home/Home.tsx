@@ -6,6 +6,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import { Feedback } from './components/Feedback'
 import CTA from './components/CTA'
+import Footer from './components/Footer'
 
 function Home() {
 	return (
@@ -20,7 +21,7 @@ function Home() {
 					<Feedback />
 					<CTA />
 				</main>
-				<footer>Copywrites</footer>
+				<Footer />
 			</div>
 
 		</>
