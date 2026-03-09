@@ -82,7 +82,8 @@ function Hero() {
 						</div>
 					</div>
 					<div className="flex items-end justify-center">
-						<img src="/model.webp" width={1000} height={1000} className="w-full md:w-[600px] lg:w-[1000px] h-auto" alt="Portfolio" />
+
+						<img src="/model.webp" width={1000} height={1000} className="w-full md:w-150 lg:w-250 h-auto" alt="Portfolio" loading="eager" fetchPriority="high" />
 					</div>
 				</div>
 			</div>
