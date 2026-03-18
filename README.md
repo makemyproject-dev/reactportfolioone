@@ -1,4 +1,4 @@
-# 🚀 Project Title: [Your Portfolio Name]
+# 🚀 React Portfolio
 
 A modern, responsive landing page built with React, Tailwind and hosted on Vercel. 
 
